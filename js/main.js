@@ -6,7 +6,6 @@ document.getElementById('file').onchange=function(e){
             image=document.createElement('img');
             image.src=reader.result;
             image.style.width="200px";
-            preview.innerHTML='';
             preview.append(image);
     }
 }
